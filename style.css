@@ -39,17 +39,21 @@ main{
 /*end*/
 
 /*Impostazione Sezione*/
-div.layout1{
+div.layout1 {
     padding-left: 40px;
     padding-top: 17px;
     padding-bottom: 15px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+    margin-bottom: 1px;
 }
-div.layout2{
+div.layout2 {
     padding-left: 40px;
-    padding-top: 
-
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-bottom:50px;
+    margin-top: 1px;
+    padding-top: 1px;
 }
 /*end*/
 
@@ -58,6 +62,7 @@ span.tasto{
     font-size: small;
     border-radius: 5px;
     padding:5px 10px;
+    color: white;
 }
 
 span.nuova-sezione{
@@ -102,13 +107,10 @@ span.cross{
 /*end*/
 
 /*attributi tag*/
-.font-bianco{
-    color: white;
-}
 .tag{
     font-size: 11px;
-    padding: 7px;
-    border-radius: 9px;
+    padding: 8px;
+    border-radius: 12px;
     color: white;
 }
 .goals{
@@ -124,6 +126,6 @@ span.cross{
     background-color: rgb(250, 95, 121);
 }
 .sales{
-    background-color: greenyellow;
+    background-color: rgb(124, 192, 23);
 }
 /*end*/
