@@ -18,7 +18,7 @@ h1{
 }
 
 main{
-    background-color: azure;
+    background-color: rgba(226, 224, 224, 0.425);
 }
 
 .sfondo{
@@ -28,12 +28,16 @@ main{
 /*bottoni*/
 .tasto{
     font-size: small;
-
     width: fit-content;
-    background-color: aqua;
     border-radius: 3px;
 }
 
+.font-bianco{
+    color: white;
+}
+ .sfondo-blu{
+     background-color: rgb(52, 135, 243);
+ }
 /*list*/
 .nome-lista{
     font-size: larger;
@@ -62,4 +66,36 @@ span.cross{
     font-size: 10px;
 }
 
+/*tag lista*/
+span.tag{
+    font-size: 11px;
+    padding: 7px;
+    border-radius: 9px;
+    color: white;
+}
+
+.goals{
+    background-color: violet;
+}
+
+.recruiting{
+    background-color: rgb(0, 124, 83);
+}
+.mobile{
+    background-color: orange;
+}
+.website{
+    background-color: rgb(250, 95, 121);
+}
+.sales{
+    background-color: greenyellow;
+}
+
+/*Impostazione della pagina*/
+div.centrale{
+    width: 755px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
