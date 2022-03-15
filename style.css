@@ -5,9 +5,13 @@
 
 /*header*/
 #logo{
-    width: 100px;
+    width: 70px;
+    vertical-align: middle;
 }
 
 h1{
-    
+    display: inline-block;
+    vertical-align: middle
 }
+
+/* */
