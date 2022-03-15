@@ -25,17 +25,43 @@ h1{
 }
 /*end header*/
 
-.sfondo{
+/*Impostazione della pagina*/
+main{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+.sfondo-bianco{
     background-color: white;
 }
+/*end*/
+
+/*Impostazione Sezione*/
+p.layout{
+    padding-left: 40px;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+/*end*/
 
 /*bottoni*/
-.tasto{
+span.tasto{
     font-size: small;
-    width: fit-content;
-    border-radius: 3px;
+    border-radius: 5px;
+    padding:5px 10px;
 }
 
+span.nuova-sezione{
+    color: lightgray;
+    border: 1px solid lightgray;
+}
+
+/*attributi tag*/
+
+/*end*/
 .font-bianco{
     color: white;
 }
@@ -86,11 +112,5 @@ span.cross{
     background-color: greenyellow;
 }
 
-/*Impostazione della pagina*/
-div.centrale{
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 40px;
-}
+
 
