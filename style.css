@@ -1,9 +1,16 @@
 *{
     font-family: sans-serif, Arial, Helvetica;
-    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
 }
 
 /*header*/
+header{
+    background-color: white;
+    margin: 0px;
+}
 #logo{
     width: 70px;
     vertical-align: middle;
@@ -14,4 +21,13 @@ h1{
     vertical-align: middle
 }
 
-/* */
+/*bottoni*/
+.tasto{
+    font-size: small;
+
+    width: fit-content;
+    background-color: aqua;
+    border-radius: 3px;
+}
+
+
