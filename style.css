@@ -3,23 +3,27 @@
     line-height: 1;
 }
 
-/*header*/
-header{
+body{
+    background-color: rgba(226, 224, 224, 0.425);
     margin: 0px;
 }
+
+/*header*/
+header{
+    background-color: white;
+    padding-left: 20px;
+}
 #logo{
-    width: 70px;
+    width: 50px;
     vertical-align: middle;
 }
 
 h1{
     display: inline-block;
-    vertical-align: middle
+    vertical-align: middle;
+    font-size: 40px;
 }
-
-main{
-    background-color: rgba(226, 224, 224, 0.425);
-}
+/*end header*/
 
 .sfondo{
     background-color: white;
