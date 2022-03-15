@@ -1,6 +1,7 @@
 *{
     font-family: sans-serif, Arial, Helvetica;
     line-height: 1;
+    font-size: 17px;
 }
 
 body{
@@ -38,12 +39,17 @@ main{
 /*end*/
 
 /*Impostazione Sezione*/
-p.layout{
+div.layout1{
     padding-left: 40px;
     padding-top: 17px;
     padding-bottom: 15px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+}
+div.layout2{
+    padding-left: 40px;
+    padding-top: 
+
 }
 /*end*/
 
@@ -59,46 +65,55 @@ span.nuova-sezione{
     border: 1px solid lightgray;
 }
 
-/*attributi tag*/
-
 /*end*/
-.font-bianco{
-    color: white;
-}
+
  .sfondo-blu{
      background-color: rgb(52, 135, 243);
  }
-/*list*/
+/*check e cross*/
 span.check{
-    padding: 2px;
-    border: 1px solid;
+    height: 17px;
+    width: 17px;
     border-radius: 50%;
-    border-color: green;
-    color: green;
-    font-size: 10px;
+    display: inline-block;
+    border: 1px solid green;
+    color:green;
+    font-size: 70%;
+    font-weight: bolder;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 2px ;
 }
-
 span.cross{
-    padding: 2px;
-    border: 1px solid;
+    height: 17px;
+    width: 17px;
     border-radius: 50%;
-    border-color: red;
-    color: red;
-    font-size: 10px;
+    display: inline-block;
+    border: 1px solid red;
+    color:red;
+    font-size: 70%;
+    font-weight: bolder;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 2px ;
 }
+/*end*/
 
-/*tag lista*/
+/*attributi tag*/
+.font-bianco{
+    color: white;
+}
 .tag{
     font-size: 11px;
     padding: 7px;
     border-radius: 9px;
     color: white;
 }
-
 .goals{
     background-color: violet;
 }
-
 .recruiting{
     background-color: rgb(0, 124, 83);
 }
@@ -111,6 +126,4 @@ span.cross{
 .sales{
     background-color: greenyellow;
 }
-
-
-
+/*end*/
