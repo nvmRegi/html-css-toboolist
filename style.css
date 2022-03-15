@@ -1,14 +1,10 @@
 *{
     font-family: sans-serif, Arial, Helvetica;
-}
-
-body{
-    background-color: aliceblue;
+    line-height: 2;
 }
 
 /*header*/
 header{
-    background-color: white;
     margin: 0px;
 }
 #logo{
@@ -21,6 +17,14 @@ h1{
     vertical-align: middle
 }
 
+main{
+    background-color: azure;
+}
+
+.sfondo{
+    background-color: white;
+}
+
 /*bottoni*/
 .tasto{
     font-size: small;
@@ -28,6 +32,34 @@ h1{
     width: fit-content;
     background-color: aqua;
     border-radius: 3px;
+}
+
+/*list*/
+.nome-lista{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.elemento{
+    list-style-type: none;
+}
+
+span.check{
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: green;
+    color: green;
+    font-size: 10px;
+}
+
+span.cross{
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: red;
+    color: red;
+    font-size: 10px;
 }
 
 
